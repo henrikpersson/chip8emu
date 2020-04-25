@@ -1,0 +1,3 @@
+#!/bin/sh
+gcc cpu.c test.c -o emu-test -lcriterion
+./emu-test
